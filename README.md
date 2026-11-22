@@ -38,21 +38,10 @@ submission
 Notebook disusun untuk dijalankan di [Google Colab](https://colab.research.google.com/), sehingga
 tidak perlu menyiapkan environment sendiri (pandas, seaborn, dan folium sudah tersedia di Colab).
 
-**Opsi A - clone repository (disarankan)**
-
-1. Buka Colab, buat notebook baru, lalu jalankan:
-   ```
-   !git clone https://github.com/yanardika/Data-Analysis-Olist.git
-   %cd Data-Analysis-Olist
-   ```
-2. Buka `notebook.ipynb` dari panel *File* Colab (atau dari menu *File > Open notebook > GitHub*).
-3. Jalankan seluruh cell secara berurutan (*Runtime > Run all*).
-
-**Opsi B - upload manual**
-
-1. Buka `notebook.ipynb` di Colab (*File > Upload notebook*).
-2. Upload `E-commerce-public-dataset.zip` ke panel *Files* di sisi kiri Colab (folder kerja `/content`).
-3. Jalankan seluruh cell secara berurutan.
+1. Download `notebook.ipnyb` dan `E-commerce-public-dataset.zip`
+2. Buka `notebook.ipynb` di Colab (*File > Upload notebook*).
+3. Upload `E-commerce-public-dataset.zip` ke panel *Files*
+4. Runtime -> Run all.
 
 
 ## Menjalankan Dashboard Secara Lokal (opsional)
